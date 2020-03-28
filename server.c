@@ -15,6 +15,7 @@
 #include <sys/time.h>
 #include <errno.h>
 #include <stdarg.h>
+#include <getopt.h>
 
 /* buffer for reading from tun/tap interface, must be >= 1500 */
 #define BUFSIZE 2000
